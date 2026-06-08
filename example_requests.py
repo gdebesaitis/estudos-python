@@ -2,7 +2,7 @@
 
 # Praticar: consumir uma API pública (ex: JSONPlaceholder ou ViaCEP)
 
-import requests
+# import requests
 # import json
 
 # r = requests.get("https://jsonplaceholder.typicode.com/posts")
@@ -19,8 +19,8 @@ import requests
 #     if item["id"] == 10:
 # break
 
-r = requests.get("https://viacep.com.br/ws/95012301/json")
+# r = requests.get("https://viacep.com.br/ws/95012301/json")
 
-print(r.status_code)
-print(r.text)
-print(f"o bairro é {r.json()['bairro']}")
+# print(r.status_code)
+# print(r.text)
+# print(f"o bairro é {r.json()['bairro']}")
