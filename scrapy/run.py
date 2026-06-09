@@ -4,7 +4,7 @@ from scrapy.crawler import CrawlerProcess
 from scrapy.signalmanager import dispatcher
 from scrapy.utils.project import get_project_settings
 
-from product_scraper.product_scraper.spiders.products import ProductsSpider
+from scrapy.product_scraper.product_scraper.spiders.products import ProductsSpider
 
 results = []
 
