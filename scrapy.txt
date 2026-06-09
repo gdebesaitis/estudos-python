@@ -1,0 +1,7 @@
+scrapy startproject product_scraper
+
+cd product_scraper
+
+scrapy genspider products sandbox.oxylabs.io/products
+
+scrapy crawl products -O products.csv
