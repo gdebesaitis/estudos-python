@@ -1,0 +1,15 @@
+Desafio: Scraper de Vagas de EmpregoDesafio: Scraper de Vagas de Emprego
+Acesse o site https://realpython.github.io/fake-jobs/ — é um site estático de vagas falso, feito pra praticar scraping sem risco de bloqueio.
+
+O que você deve fazer:
+
+Usar Selenium pra abrir o site e clicar no botão "Apply" de cada vaga, capturando a URL da página de detalhe
+Usar bs4 pra raspar da página de detalhe: título, empresa, localização e descrição completa da vaga
+Salvar tudo no PostgreSQL numa tabela vagas com as colunas: titulo, empresa, localizacao, descricao, url, coletado_em
+
+Critérios pra considerar completo:
+
+- Selenium navega e clica nos botões sem travar
+- bs4 extrai os 5 campos corretamente
+- Dados salvos no banco sem duplicatas (se rodar duas vezes, não duplica)
+- coletado_em preenchido automaticamente com datetime.now()

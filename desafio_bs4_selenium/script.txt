@@ -1,0 +1,9 @@
+create table vagas(
+	id int generated always as identity primary key,
+	titulo varchar(100),
+	empresa varchar(100),
+	localizacao varchar(100),
+	descricao text,
+	url varchar(200),
+	coletado_em time
+)
