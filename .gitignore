@@ -32,3 +32,5 @@ Thumbs.db
 # Variáveis de ambiente
 .env
 *.env
+
+chromedriver.exe
